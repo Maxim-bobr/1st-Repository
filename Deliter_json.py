@@ -10,7 +10,6 @@ for i in data['FAHRZEUGTYP']:
     result = besh[:besh.find('KW')]
     i['BESCHREIBUNG'] = result[:result.find('kW')]
     i['BESCHREIBUNG'] = i['BESCHREIBUNG'] + 'KW'
-    # print(result)
 
 with open('FAHRZEUGTYP_R05X_full.json', "w") as outfile:
     json.dump(data, outfile)
