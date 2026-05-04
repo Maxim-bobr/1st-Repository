@@ -41,3 +41,4 @@ combo_of_values_2 = ttk.Combobox(root, values=["2", "3", "4", "5", "6", "7", "8"
 combo_of_values_2.grid(column=1, row=3, sticky="w", padx=250)
 
 root.mainloop()
+
